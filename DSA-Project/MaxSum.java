@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
-public class Solution {
-	public static int MaxSum(int[] arr) {
+public class MaxSum {
+	public static int FindMaxSum(int[] arr) {
 		int sum =0 ;
 		
 		Arrays.sort(arr);
@@ -13,6 +13,6 @@ public class Solution {
 	}
 	public static void main(String[] args) {
 		int arr[] = {1,0,3,5,6,8};
-		System.out.print("Maximum sum is : " + MaxSum(arr));
+		System.out.print("Maximum sum is : " + FindMaxSum(arr));
 	}	
 }
